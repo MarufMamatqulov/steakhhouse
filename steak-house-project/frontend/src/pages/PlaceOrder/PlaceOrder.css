@@ -1,0 +1,155 @@
+.place-order {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.place-order-left, .place-order-right {
+    width: 48%;
+}
+
+.place-order-left {
+    /*background-color: #f9f9f9;*/
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.place-order-right {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.multi-field,
+.input-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.multi-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-group input::placeholder,
+.multi-field input::placeholder {
+    color: #888;
+}
+
+.cart-total {
+    /*background-color: #f9f9f9;*/
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cart-total h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cart-total-details p {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+.payment h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.payment .payment-option{
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    border: 1px solid tomato;
+    padding: 15px;
+    border-radius: 4px;
+    min-width: 300px;
+    cursor: pointer;
+}
+.payment .payment-option:hover{
+    background-color:  #ffe7de;
+}
+
+
+.payment-options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.place-order-button button {
+    width: 30%;
+    padding: 9px;
+    background-color: #FF4C24;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.payment-label {
+    color: #FF4C24;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between input and text */
+    cursor: pointer;
+}
+
+.payment-label input {
+    margin: 0; /* Remove default margin for a clean layout */
+    color: #FF4C24;
+}
+
+.payment-label span {
+
+    font-size: 16px; /* Adjust text size if needed */
+    color: #333; /* Set desired text color */
+}
+
+.payment-label input[type="radio"] {
+    accent-color: #FF4C24;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #444;
+}
+
+
